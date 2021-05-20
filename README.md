@@ -17,6 +17,8 @@ The stresses induce a deformation of the body which follows the viscoelastic Hoo
 where L is the Laplace transform, ν is the Poisson's coefficient and E* = E + s η is the complex Young modulus of the skin layers, with E = 1.1 MPa the elastic modulus and η is the viscosity of the skin and s the Laplace operator. 
 Time variation of the strain is computed numerically using a 4th-order Runge-Kutta solver. The viscoelastic behavior leads to a low-pass filtering of the surface pressure with a cut-off frequency set to E/η = 100 Hz. 
 
+<p><img src="https://user-images.githubusercontent.com/58175648/118945913-34420500-b956-11eb-9516-49039147959b.png" alt="bode" width=500 /></p>
+
 
 **References:**
 Johnson, K. L., & Johnson, K. L. (1987). Contact mechanics. Cambridge university press.
